@@ -1,0 +1,6 @@
+version: "1.0"
+services:
+  micro_service_postgres:
+    build: .
+    ports:
+      - "8019:3005"
